@@ -1,0 +1,15 @@
+.newsletter {
+    display: flex;
+    border-right: #04AA6D 3px solid;
+    padding: 5px 2px;
+    justify-content: flex-start;
+}
+
+.newsletter h2 {
+    margin: 0 7px;
+}
+
+.newsletter input {
+    width: 300px;
+    margin: 0 7px;
+}

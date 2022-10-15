@@ -1,0 +1,25 @@
+.intro {
+    position: absolute;
+    top: 143px;
+}
+
+.intro h1 {
+    color: #04AA6D;
+    text-align: center;
+    /* border: 5px #04AA6D solid; */
+    backdrop-filter: saturate(50%) blur(8px);
+    background: rgba(255, 255, 255, .7);
+    padding: 8px;
+    width: fit-content;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.intro p {
+    color: #213547;
+    text-align: right;
+    backdrop-filter: saturate(50%) blur(8px);
+    background: rgba(255, 255, 255, .7);
+    padding: 40px 15px;
+    border-radius: 5px;
+}

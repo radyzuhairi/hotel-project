@@ -1,0 +1,40 @@
+.reservation {
+    background-color: #04AA6D;
+    display: flex;
+}
+
+.reservation .box {
+    background-color: #04AA6D;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    margin: 48px 15px;
+}
+
+.reservation .box h3 {
+    color: #fff;
+    margin-bottom: 48px;
+    font-size: 48px;
+}
+
+.reservation .box p {
+    color: #fff;
+    margin-bottom: 36px;
+    font-size: 20px;
+}
+
+.reservation .box .btn-second {
+    margin: 5px;
+}
+
+.reservation .image {
+    height: 400px;
+    background-size: cover;
+    flex: 2;
+}
+
+.container .btn-main {
+    padding: 5px 7px;
+}

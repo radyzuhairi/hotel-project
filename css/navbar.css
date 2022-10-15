@@ -1,0 +1,33 @@
+.topnav {
+    overflow: hidden;
+    backdrop-filter: saturate(50%) blur(8px);
+    background: rgba(255, 255, 255, .7);
+    top: 0;
+    left: 0;
+    z-index: 9999999999;
+    width: 100%;
+    position: fixed;
+}
+
+.topnav a {
+    float: right;
+    color: #213547;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav-separator {
+    margin-top: 48px;
+}

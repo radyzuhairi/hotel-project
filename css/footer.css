@@ -1,0 +1,9 @@
+.footer {
+    margin-top: 15px;
+    border-top: 1px #04AA6D solid;
+}
+
+.footer .social {
+    margin-top: 5px;
+    color: #75797c;
+}

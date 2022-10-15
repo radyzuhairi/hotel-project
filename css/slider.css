@@ -1,0 +1,48 @@
+.gallery-wrapper {
+    width: 100% !important;
+    height: 600px;
+    /* margin: 20px auto; */
+    overflow: hidden;
+    /* border: 0px solid lightskyblue; */
+    display: flex;
+}
+
+.gallery-wrapper img {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    animation-name: mymove;
+    animation-duration: 18s;
+    -webkit-animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes mymove {
+    0% {
+        left: 0%;
+    }
+
+    25% {
+        left: 0%;
+    }
+
+    33% {
+        left: -100%;
+    }
+
+    58% {
+        left: -100%;
+    }
+
+    66% {
+        left: -200%;
+    }
+
+    92% {
+        left: -200%;
+    }
+
+    100% {
+        left: -300%;
+    }
+}
